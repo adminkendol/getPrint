@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Tambahkan kedalam Keranjang"
+        android:textColor="@color/judul"
+        android:textAllCaps="false"
+        android:id="@+id/tkr"
+        android:background="@drawable/list_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Lanjut Berbelanja"
+        android:textColor="@color/judul"
+        android:textAllCaps="false"
+        android:id="@+id/lb"
+        android:background="@drawable/list_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tkr"
+        android:layout_toLeftOf="@+id/spi"
+        android:layout_toStartOf="@+id/spi"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Sebarkan produk ini"
+        android:textColor="@color/judul"
+        android:textAllCaps="false"
+        android:id="@+id/spi"
+        android:background="@drawable/list_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/lb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="43dp" />
+</RelativeLayout>

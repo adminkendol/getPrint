@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sizeLay"
+    android:background="@color/judul"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/sizeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:text="2cm"
+        android:padding="6dip"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/textSpinner"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.85.000,-/100pcs"
+        android:padding="6dip"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/textSpinner"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/sizeName"
+        android:layout_toEndOf="@+id/sizeName"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/next_black"
+        android:id="@+id/imageOkay"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

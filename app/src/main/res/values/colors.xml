@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00c799</color>
+    <color name="judul">#fefefe</color>
+    <color name="textLabel">#96989A</color>
+    <color name="textPilih">#757779</color>
+    <color name="textSpinner">#201E1E</color>
+</resources>
